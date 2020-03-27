@@ -105,10 +105,10 @@
 				0B09E385242D0D980027CA3F /* Login */,
 				0B09E351242D06360027CA3F /* AppDelegate.swift */,
 				0B09E353242D06360027CA3F /* SceneDelegate.swift */,
-				0B09E35A242D06390027CA3F /* Assets.xcassets */,
-				0B09E35F242D06390027CA3F /* Info.plist */,
 				0B09E381242D0A8C0027CA3F /* SplashViewController.swift */,
+				0B09E35F242D06390027CA3F /* Info.plist */,
 				0B09E390242D600C0027CA3F /* Localizable.strings */,
+				0B09E35A242D06390027CA3F /* Assets.xcassets */,
 			);
 			path = eateat;
 			sourceTree = "<group>";

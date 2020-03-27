@@ -1,5 +1,6 @@
-"loginScreenTitle" = "Login";
+"app_name" = "Login";
 "emaiNameText" = "E-mail";
 "passwordText" = "Senha";
 "loginTextImputHint" = "exemplo@email.com";
 "passwordTextImputHint" = "******";
+"login_button_text" = "Entrar";

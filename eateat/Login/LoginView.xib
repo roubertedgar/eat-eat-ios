@@ -11,6 +11,7 @@
             <connections>
                 <outlet property="emailLabel" destination="dVt-nc-C5D" id="e0p-wK-UMe"/>
                 <outlet property="emailTextImput" destination="2Fk-WP-niO" id="Zm5-gk-wQD"/>
+                <outlet property="loginButton" destination="JBi-lY-liQ" id="Sbw-60-OhU"/>
                 <outlet property="loginTitleeText" destination="fDX-uo-VhV" id="dOo-Pf-ikt"/>
                 <outlet property="passwordLabel" destination="FhG-QU-xN0" id="WwU-Ig-KWW"/>
                 <outlet property="passwordTextImput" destination="1oL-vN-3Y4" id="Wvw-Ia-t4z"/>
@@ -80,7 +81,7 @@
                 <constraint firstItem="fDX-uo-VhV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="yGM-j7-oy6"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="115.94202898550725" y="35.491071428571423"/>
+            <point key="canvasLocation" x="-28" y="22"/>
         </view>
     </objects>
 </document>
