@@ -1,0 +1,5 @@
+"loginScreenTitle" = "Login";
+"emaiNameText" = "Email"
+"passwordText" = "Password"
+"loginTextImputHint" = "examble@email.com"
+"passwordTextImputHint" = "******"
