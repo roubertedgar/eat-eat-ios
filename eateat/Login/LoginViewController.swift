@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         setupViews()
+        setupActions()
     }
     
     private func setupViews(){
@@ -28,8 +29,13 @@ class LoginViewController: UIViewController {
         loginButton.setTitle(getString("login_button_text"), for: .normal)
     }
     
-    private func getString(_ key: String) -> String{
-        return NSLocalizedString(key, comment: "")
+    private func setupActions(){
+        loginButton.addTarget(self, action: #selector(doLogin(sender:)), for: .touchDown)
+    }
+    
+    @objc func doLogin(sender: UIButton) {
+        let alertView = UIAlertController(title: "Do login", message: "Are you shure?", preferredStyle: UIAlertController.Style.alert)
+        present(alertView, animated: true, completion: nil)
     }
     
 }
