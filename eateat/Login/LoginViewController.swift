@@ -57,9 +57,22 @@ class LoginViewController: UIViewController {
     private func onViewStateChanged(_ viewState:ViewState){
         switch viewState {
         case .writeState:
-            print("Pode ler e escrever")
+            toWriteState()
         case .readOnlyState:
-            print("So pode ler")
+            toReadOnlyState()
+        }
+    }
+    
+    private func toReadOnlyState() {
+        view.subviews.forEach{subview in
+            (subview as? UIControl)?.isEnabled = false
+        }
+    }
+    
+    private func toWriteState() {
+        view.subviews.forEach{subview in
+            (subview as? UIControl)?.isEnabled = true
         }
     }
 }
+
