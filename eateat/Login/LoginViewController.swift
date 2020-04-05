@@ -24,10 +24,6 @@ class LoginViewController: UIViewController {
     }
     
     private func setupViews() {
-        loginTitleeText.text = getString("app_name")
-        emailLabel.text = getString("emaiNameText")
-        passwordLabel.text = getString("passwordText")
-        
         emailTextImput.placeholder = getString("loginTextImputHint")
         passwordTextImput.placeholder = getString("passwordTextImputHint")
         
