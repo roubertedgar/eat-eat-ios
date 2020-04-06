@@ -17,14 +17,9 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupViews()
+    
         setupActions()
         setupObservables()
-    }
-    
-    private func setupViews() {
-        loginButton.setTitle(getString("login_button_text"), for: .normal)
     }
     
     private func setupActions() {

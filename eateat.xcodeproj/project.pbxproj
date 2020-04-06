@@ -21,6 +21,7 @@
 		0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E399242ED55B0027CA3F /* LoginViewModel.swift */; };
 		CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942F9243A9A52008E3938 /* TextInput.swift */; };
 		CD4942FC243A9A52008E3938 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FA243A9A52008E3938 /* TextView.swift */; };
+		CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FD243ABEB4008E3938 /* BaseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		0B09E399242ED55B0027CA3F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		CD4942F9243A9A52008E3938 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = eateat/Components/TextInput.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FA243A9A52008E3938 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = eateat/Components/TextView.swift; sourceTree = SOURCE_ROOT; };
+		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			children = (
 				CD4942F9243A9A52008E3938 /* TextInput.swift */,
 				CD4942FA243A9A52008E3938 /* TextView.swift */,
+				CD4942FD243ABEB4008E3938 /* BaseButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				0B09E352242D06360027CA3F /* AppDelegate.swift in Sources */,
 				0B09E397242EA1F10027CA3F /* UIResponderExt.swift in Sources */,
 				0B09E354242D06360027CA3F /* SceneDelegate.swift in Sources */,
+				CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */,
 				CD4942FC243A9A52008E3938 /* TextView.swift in Sources */,
 				0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */,
 				CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */,

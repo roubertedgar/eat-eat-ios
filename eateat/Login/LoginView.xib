@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="EatEat" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="eateat" customModuleProvider="target">
             <connections>
                 <outlet property="emailLabel" destination="dVt-nc-C5D" id="e0p-wK-UMe"/>
                 <outlet property="emailTextImput" destination="2Fk-WP-niO" id="Zm5-gk-wQD"/>
@@ -23,7 +23,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-uo-VhV" customClass="TextView" customModule="EatEat" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-uo-VhV" customClass="TextView" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="20" y="74" width="374" height="41"/>
                     <accessibility key="accessibilityConfiguration" identifier="loginTitleText"/>
                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
@@ -34,7 +34,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="app_name"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Fk-WP-niO" customClass="TextInput" customModule="EatEat" customModuleProvider="target">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Fk-WP-niO" customClass="TextInput" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="20" y="431" width="374" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" textContentType="username"/>
@@ -43,7 +43,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="loginTextImputHint"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oL-vN-3Y4" customClass="TextInput" customModule="EatEat" customModuleProvider="target">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oL-vN-3Y4" customClass="TextInput" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="20" y="505" width="374" height="34"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
@@ -51,11 +51,14 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="passwordTextImputHint"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBi-lY-liQ">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBi-lY-liQ" customClass="BaseButton" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="40" y="772" width="334" height="30"/>
                     <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="login_button_text"/>
+                    </userDefinedRuntimeAttributes>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="passwordLabel" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhG-QU-xN0" customClass="TextView" customModule="EatEat" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="passwordLabel" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhG-QU-xN0" customClass="TextView" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="20" y="479" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -65,7 +68,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="passwordText"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="nameLabel" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVt-nc-C5D" customClass="TextView" customModule="EatEat" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="nameLabel" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVt-nc-C5D" customClass="TextView" customModule="eateat" customModuleProvider="target">
                     <rect key="frame" x="20" y="405" width="374" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
