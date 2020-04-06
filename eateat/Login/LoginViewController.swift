@@ -24,9 +24,6 @@ class LoginViewController: UIViewController {
     }
     
     private func setupViews() {
-        emailTextImput.placeholder = getString("loginTextImputHint")
-        passwordTextImput.placeholder = getString("passwordTextImputHint")
-        
         loginButton.setTitle(getString("login_button_text"), for: .normal)
     }
     
