@@ -1,3 +1,5 @@
 .idea
 .DS_Store
 eateat/.DS_Store
+*.xcodeproj/
+DerivedData/

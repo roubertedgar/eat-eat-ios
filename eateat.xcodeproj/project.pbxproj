@@ -64,6 +64,7 @@
 		CD4942F9243A9A52008E3938 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = eateat/Components/TextInput.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FA243A9A52008E3938 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = eateat/Components/TextView.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		CDDC247D2442D7F900238A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		0B09E345242D06360027CA3F = {
 			isa = PBXGroup;
 			children = (
+				CDDC247D2442D7F900238A4F /* README.md */,
 				0B09E350242D06360027CA3F /* eateat */,
 				0B09E367242D06390027CA3F /* eateatTests */,
 				0B09E372242D06390027CA3F /* eateatUITests */,
