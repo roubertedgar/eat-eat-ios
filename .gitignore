@@ -6,4 +6,7 @@ eateat/.DS_Store
 *.xcodeproj/xcuserdata
 *.xcodeproj/xcshareddata
 
+Podfile.lock
+Pods
+
 DerivedData/
