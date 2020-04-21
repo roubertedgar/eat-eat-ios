@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func doLogin(sender: UIButton) {
-        viewModel.doLogin()
+        viewModel.doLogin(emailTextImput.text, passwordTextImput.text)
     }
     
     private func setupObservables() {

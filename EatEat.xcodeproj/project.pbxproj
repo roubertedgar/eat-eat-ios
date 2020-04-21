@@ -22,6 +22,8 @@
 		CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942F9243A9A52008E3938 /* TextInput.swift */; };
 		CD4942FC243A9A52008E3938 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FA243A9A52008E3938 /* TextView.swift */; };
 		CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FD243ABEB4008E3938 /* BaseButton.swift */; };
+		CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */; };
+		CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFC730244EA05B0072424A /* LoginClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B09E34E242D06360027CA3F /* eateat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eateat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E34E242D06360027CA3F /* EatEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B09E351242D06360027CA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B09E353242D06360027CA3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B09E35A242D06390027CA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B09E35F242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E364242D06390027CA3F /* eateatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eateatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E364242D06390027CA3F /* EatEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B09E368242D06390027CA3F /* eateatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatTests.swift; sourceTree = "<group>"; };
 		0B09E36A242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E36F242D06390027CA3F /* eateatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eateatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E36F242D06390027CA3F /* EatEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B09E373242D06390027CA3F /* eateatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatUITests.swift; sourceTree = "<group>"; };
 		0B09E375242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B09E381242D0A8C0027CA3F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		CD4942F9243A9A52008E3938 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = eateat/Components/TextInput.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FA243A9A52008E3938 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = eateat/Components/TextView.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		CDCFC730244EA05B0072424A /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
 		CDDC247D2442D7F900238A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				CDDC247D2442D7F900238A4F /* README.md */,
-				0B09E350242D06360027CA3F /* eateat */,
-				0B09E367242D06390027CA3F /* eateatTests */,
-				0B09E372242D06390027CA3F /* eateatUITests */,
+				0B09E350242D06360027CA3F /* EatEat */,
+				0B09E367242D06390027CA3F /* EatEatTests */,
+				0B09E372242D06390027CA3F /* EatEatUITests */,
 				0B09E34F242D06360027CA3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,14 +110,14 @@
 		0B09E34F242D06360027CA3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B09E34E242D06360027CA3F /* eateat.app */,
-				0B09E364242D06390027CA3F /* eateatTests.xctest */,
-				0B09E36F242D06390027CA3F /* eateatUITests.xctest */,
+				0B09E34E242D06360027CA3F /* EatEat.app */,
+				0B09E364242D06390027CA3F /* EatEatTests.xctest */,
+				0B09E36F242D06390027CA3F /* EatEatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B09E350242D06360027CA3F /* eateat */ = {
+		0B09E350242D06360027CA3F /* EatEat */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E351242D06360027CA3F /* AppDelegate.swift */,
@@ -127,25 +131,25 @@
 				0B09E390242D600C0027CA3F /* Localizable.strings */,
 				0B09E35A242D06390027CA3F /* Assets.xcassets */,
 			);
-			path = eateat;
+			path = EatEat;
 			sourceTree = "<group>";
 		};
-		0B09E367242D06390027CA3F /* eateatTests */ = {
+		0B09E367242D06390027CA3F /* EatEatTests */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E368242D06390027CA3F /* eateatTests.swift */,
 				0B09E36A242D06390027CA3F /* Info.plist */,
 			);
-			path = eateatTests;
+			path = EatEatTests;
 			sourceTree = "<group>";
 		};
-		0B09E372242D06390027CA3F /* eateatUITests */ = {
+		0B09E372242D06390027CA3F /* EatEatUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E373242D06390027CA3F /* eateatUITests.swift */,
 				0B09E375242D06390027CA3F /* Info.plist */,
 			);
-			path = eateatUITests;
+			path = EatEatUITests;
 			sourceTree = "<group>";
 		};
 		0B09E385242D0D980027CA3F /* Login */ = {
@@ -154,6 +158,8 @@
 				0B09E388242D15910027CA3F /* LoginViewController.swift */,
 				0B09E38A242D15AF0027CA3F /* LoginView.xib */,
 				0B09E399242ED55B0027CA3F /* LoginViewModel.swift */,
+				CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */,
+				CDCFC730244EA05B0072424A /* LoginClient.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -187,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B09E34D242D06360027CA3F /* eateat */ = {
+		0B09E34D242D06360027CA3F /* EatEat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateat" */;
+			buildConfigurationList = 0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEat" */;
 			buildPhases = (
 				0B09E34A242D06360027CA3F /* Sources */,
 				0B09E34B242D06360027CA3F /* Frameworks */,
@@ -199,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = eateat;
+			name = EatEat;
 			productName = eateat;
-			productReference = 0B09E34E242D06360027CA3F /* eateat.app */;
+			productReference = 0B09E34E242D06360027CA3F /* EatEat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B09E363242D06390027CA3F /* eateatTests */ = {
+		0B09E363242D06390027CA3F /* EatEatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateatTests" */;
+			buildConfigurationList = 0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatTests" */;
 			buildPhases = (
 				0B09E360242D06390027CA3F /* Sources */,
 				0B09E361242D06390027CA3F /* Frameworks */,
@@ -217,14 +223,14 @@
 			dependencies = (
 				0B09E366242D06390027CA3F /* PBXTargetDependency */,
 			);
-			name = eateatTests;
+			name = EatEatTests;
 			productName = eateatTests;
-			productReference = 0B09E364242D06390027CA3F /* eateatTests.xctest */;
+			productReference = 0B09E364242D06390027CA3F /* EatEatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0B09E36E242D06390027CA3F /* eateatUITests */ = {
+		0B09E36E242D06390027CA3F /* EatEatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateatUITests" */;
+			buildConfigurationList = 0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatUITests" */;
 			buildPhases = (
 				0B09E36B242D06390027CA3F /* Sources */,
 				0B09E36C242D06390027CA3F /* Frameworks */,
@@ -235,9 +241,9 @@
 			dependencies = (
 				0B09E371242D06390027CA3F /* PBXTargetDependency */,
 			);
-			name = eateatUITests;
+			name = EatEatUITests;
 			productName = eateatUITests;
-			productReference = 0B09E36F242D06390027CA3F /* eateatUITests.xctest */;
+			productReference = 0B09E36F242D06390027CA3F /* EatEatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B09E349242D06360027CA3F /* Build configuration list for PBXProject "eateat" */;
+			buildConfigurationList = 0B09E349242D06360027CA3F /* Build configuration list for PBXProject "EatEat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B09E34D242D06360027CA3F /* eateat */,
-				0B09E363242D06390027CA3F /* eateatTests */,
-				0B09E36E242D06390027CA3F /* eateatUITests */,
+				0B09E34D242D06360027CA3F /* EatEat */,
+				0B09E363242D06390027CA3F /* EatEatTests */,
+				0B09E36E242D06390027CA3F /* EatEatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */,
 				0B09E389242D15910027CA3F /* LoginViewController.swift in Sources */,
+				CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */,
 				0B09E395242EA1530027CA3F /* RestaurnatListViewController.swift in Sources */,
 				0B09E382242D0A8C0027CA3F /* SplashViewController.swift in Sources */,
 				0B09E352242D06360027CA3F /* AppDelegate.swift in Sources */,
@@ -350,12 +358,12 @@
 /* Begin PBXTargetDependency section */
 		0B09E366242D06390027CA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B09E34D242D06360027CA3F /* eateat */;
+			target = 0B09E34D242D06360027CA3F /* EatEat */;
 			targetProxy = 0B09E365242D06390027CA3F /* PBXContainerItemProxy */;
 		};
 		0B09E371242D06390027CA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B09E34D242D06360027CA3F /* eateat */;
+			target = 0B09E34D242D06360027CA3F /* EatEat */;
 			targetProxy = 0B09E370242D06390027CA3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,7 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eateat.app/eateat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatEat.app/EatEat";
 			};
 			name = Debug;
 		};
@@ -561,7 +569,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eateat.app/eateat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatEat.app/EatEat";
 			};
 			name = Release;
 		};
@@ -606,7 +614,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B09E349242D06360027CA3F /* Build configuration list for PBXProject "eateat" */ = {
+		0B09E349242D06360027CA3F /* Build configuration list for PBXProject "EatEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E376242D06390027CA3F /* Debug */,
@@ -615,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateat" */ = {
+		0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E379242D06390027CA3F /* Debug */,
@@ -624,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateatTests" */ = {
+		0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E37C242D06390027CA3F /* Debug */,
@@ -633,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "eateatUITests" */ = {
+		0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E37F242D06390027CA3F /* Debug */,
