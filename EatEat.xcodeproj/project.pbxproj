@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 		CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942F9243A9A52008E3938 /* TextInput.swift */; };
 		CD4942FC243A9A52008E3938 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FA243A9A52008E3938 /* TextView.swift */; };
 		CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FD243ABEB4008E3938 /* BaseButton.swift */; };
+		CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80DB2E244FF901000DF2AD /* HttpManager.swift */; };
 		CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */; };
 		CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFC730244EA05B0072424A /* LoginClient.swift */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		CD4942F9243A9A52008E3938 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = eateat/Components/TextInput.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FA243A9A52008E3938 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = eateat/Components/TextView.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		CD80DB2E244FF901000DF2AD /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 		CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		CDCFC730244EA05B0072424A /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
 		CDDC247D2442D7F900238A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				0B09E385242D0D980027CA3F /* Login */,
 				0B09E393242E53AC0027CA3F /* Restaurant */,
 				CD4942F8243A99C5008E3938 /* Components */,
+				CD80DB2D244FF8EB000DF2AD /* Core */,
 				0B09E398242EA4350027CA3F /* Extensions */,
 				0B09E35F242D06390027CA3F /* Info.plist */,
 				0B09E390242D600C0027CA3F /* Localizable.strings */,
@@ -201,7 +204,6 @@
 				5C41252388251A800379CD1F /* Pods-EatEat.debug.xcconfig */,
 				1FA679BA988E7C690FA6DDA3 /* Pods-EatEat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +215,14 @@
 				CD4942FD243ABEB4008E3938 /* BaseButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CD80DB2D244FF8EB000DF2AD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD80DB2E244FF901000DF2AD /* HttpManager.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +412,7 @@
 				CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */,
 				CD4942FC243A9A52008E3938 /* TextView.swift in Sources */,
 				0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */,
+				CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */,
 				CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
