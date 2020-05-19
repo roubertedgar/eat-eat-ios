@@ -19,12 +19,11 @@
 		0B09E395242EA1530027CA3F /* RestaurnatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E394242EA1530027CA3F /* RestaurnatListViewController.swift */; };
 		0B09E397242EA1F10027CA3F /* UIResponderExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E396242EA1F10027CA3F /* UIResponderExt.swift */; };
 		0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E399242ED55B0027CA3F /* LoginViewModel.swift */; };
-		9794280559D6785A0910B67D /* Pods_EatEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1C07960466B4B7DA92B1B3 /* Pods_EatEat.framework */; };
-		CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942F9243A9A52008E3938 /* TextInput.swift */; };
-		CD4942FC243A9A52008E3938 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FA243A9A52008E3938 /* TextView.swift */; };
 		CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FD243ABEB4008E3938 /* BaseButton.swift */; };
 		CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80DB2E244FF901000DF2AD /* HttpManager.swift */; };
 		CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */; };
+		CD993DBE2473993300B27A35 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD993DBC2473993300B27A35 /* TextInput.swift */; };
+		CD993DBF2473993300B27A35 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD993DBD2473993300B27A35 /* TextView.swift */; };
 		CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFC730244EA05B0072424A /* LoginClient.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,15 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B09E34E242D06360027CA3F /* EatEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E34E242D06360027CA3F /* ToSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ToSplit.app; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplit.app"; sourceTree = "<absolute>"; };
 		0B09E351242D06360027CA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B09E353242D06360027CA3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B09E35A242D06390027CA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B09E35F242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E364242D06390027CA3F /* EatEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E364242D06390027CA3F /* ToSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ToSplitTests.xctest; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplitTests.xctest"; sourceTree = "<absolute>"; };
 		0B09E368242D06390027CA3F /* eateatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatTests.swift; sourceTree = "<group>"; };
 		0B09E36A242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E36F242D06390027CA3F /* EatEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B09E36F242D06390027CA3F /* ToSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ToSplitUITests.xctest; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplitUITests.xctest"; sourceTree = "<absolute>"; };
 		0B09E373242D06390027CA3F /* eateatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatUITests.swift; sourceTree = "<group>"; };
 		0B09E375242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B09E381242D0A8C0027CA3F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -65,14 +64,11 @@
 		0B09E394242EA1530027CA3F /* RestaurnatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurnatListViewController.swift; sourceTree = "<group>"; };
 		0B09E396242EA1F10027CA3F /* UIResponderExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponderExt.swift; sourceTree = "<group>"; };
 		0B09E399242ED55B0027CA3F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		1FA679BA988E7C690FA6DDA3 /* Pods-EatEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatEat.release.xcconfig"; path = "Target Support Files/Pods-EatEat/Pods-EatEat.release.xcconfig"; sourceTree = "<group>"; };
-		5C41252388251A800379CD1F /* Pods-EatEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatEat.debug.xcconfig"; path = "Target Support Files/Pods-EatEat/Pods-EatEat.debug.xcconfig"; sourceTree = "<group>"; };
-		AD1C07960466B4B7DA92B1B3 /* Pods_EatEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EatEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD4942F9243A9A52008E3938 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = eateat/Components/TextInput.swift; sourceTree = SOURCE_ROOT; };
-		CD4942FA243A9A52008E3938 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = eateat/Components/TextView.swift; sourceTree = SOURCE_ROOT; };
 		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		CD80DB2E244FF901000DF2AD /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 		CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		CD993DBC2473993300B27A35 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		CD993DBD2473993300B27A35 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CDCFC730244EA05B0072424A /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
 		CDDC247D2442D7F900238A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9794280559D6785A0910B67D /* Pods_EatEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,26 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CDDC247D2442D7F900238A4F /* README.md */,
-				0B09E350242D06360027CA3F /* EatEat */,
-				0B09E367242D06390027CA3F /* EatEatTests */,
-				0B09E372242D06390027CA3F /* EatEatUITests */,
-				0B09E34F242D06360027CA3F /* Products */,
-				C75A54DFC2863E8AFE699936 /* Pods */,
-				7B926D83EF241AD04574620E /* Frameworks */,
+				0B09E350242D06360027CA3F /* ToSplit */,
+				0B09E367242D06390027CA3F /* ToSplitTests */,
+				0B09E372242D06390027CA3F /* ToSplitUITests */,
 			);
 			sourceTree = "<group>";
 		};
-		0B09E34F242D06360027CA3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B09E34E242D06360027CA3F /* EatEat.app */,
-				0B09E364242D06390027CA3F /* EatEatTests.xctest */,
-				0B09E36F242D06390027CA3F /* EatEatUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0B09E350242D06360027CA3F /* EatEat */ = {
+		0B09E350242D06360027CA3F /* ToSplit */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E351242D06360027CA3F /* AppDelegate.swift */,
@@ -141,25 +123,25 @@
 				0B09E390242D600C0027CA3F /* Localizable.strings */,
 				0B09E35A242D06390027CA3F /* Assets.xcassets */,
 			);
-			path = EatEat;
+			path = ToSplit;
 			sourceTree = "<group>";
 		};
-		0B09E367242D06390027CA3F /* EatEatTests */ = {
+		0B09E367242D06390027CA3F /* ToSplitTests */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E368242D06390027CA3F /* eateatTests.swift */,
 				0B09E36A242D06390027CA3F /* Info.plist */,
 			);
-			path = EatEatTests;
+			path = ToSplitTests;
 			sourceTree = "<group>";
 		};
-		0B09E372242D06390027CA3F /* EatEatUITests */ = {
+		0B09E372242D06390027CA3F /* ToSplitUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0B09E373242D06390027CA3F /* eateatUITests.swift */,
 				0B09E375242D06390027CA3F /* Info.plist */,
 			);
-			path = EatEatUITests;
+			path = ToSplitUITests;
 			sourceTree = "<group>";
 		};
 		0B09E385242D0D980027CA3F /* Login */ = {
@@ -190,28 +172,11 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		7B926D83EF241AD04574620E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AD1C07960466B4B7DA92B1B3 /* Pods_EatEat.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C75A54DFC2863E8AFE699936 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C41252388251A800379CD1F /* Pods-EatEat.debug.xcconfig */,
-				1FA679BA988E7C690FA6DDA3 /* Pods-EatEat.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		CD4942F8243A99C5008E3938 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CD4942F9243A9A52008E3938 /* TextInput.swift */,
-				CD4942FA243A9A52008E3938 /* TextView.swift */,
+				CD993DBC2473993300B27A35 /* TextInput.swift */,
+				CD993DBD2473993300B27A35 /* TextView.swift */,
 				CD4942FD243ABEB4008E3938 /* BaseButton.swift */,
 			);
 			path = Components;
@@ -228,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B09E34D242D06360027CA3F /* EatEat */ = {
+		0B09E34D242D06360027CA3F /* ToSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEat" */;
+			buildConfigurationList = 0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplit" */;
 			buildPhases = (
 				B96667A30972E1D56E3BBF52 /* [CP] Check Pods Manifest.lock */,
 				0B09E34A242D06360027CA3F /* Sources */,
@@ -242,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = EatEat;
+			name = ToSplit;
 			productName = eateat;
-			productReference = 0B09E34E242D06360027CA3F /* EatEat.app */;
+			productReference = 0B09E34E242D06360027CA3F /* ToSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B09E363242D06390027CA3F /* EatEatTests */ = {
+		0B09E363242D06390027CA3F /* ToSplitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatTests" */;
+			buildConfigurationList = 0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplitTests" */;
 			buildPhases = (
 				0B09E360242D06390027CA3F /* Sources */,
 				0B09E361242D06390027CA3F /* Frameworks */,
@@ -260,14 +225,14 @@
 			dependencies = (
 				0B09E366242D06390027CA3F /* PBXTargetDependency */,
 			);
-			name = EatEatTests;
+			name = ToSplitTests;
 			productName = eateatTests;
-			productReference = 0B09E364242D06390027CA3F /* EatEatTests.xctest */;
+			productReference = 0B09E364242D06390027CA3F /* ToSplitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0B09E36E242D06390027CA3F /* EatEatUITests */ = {
+		0B09E36E242D06390027CA3F /* ToSplitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatUITests" */;
+			buildConfigurationList = 0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplitUITests" */;
 			buildPhases = (
 				0B09E36B242D06390027CA3F /* Sources */,
 				0B09E36C242D06390027CA3F /* Frameworks */,
@@ -278,9 +243,9 @@
 			dependencies = (
 				0B09E371242D06390027CA3F /* PBXTargetDependency */,
 			);
-			name = EatEatUITests;
+			name = ToSplitUITests;
 			productName = eateatUITests;
-			productReference = 0B09E36F242D06390027CA3F /* EatEatUITests.xctest */;
+			productReference = 0B09E36F242D06390027CA3F /* ToSplitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B09E349242D06360027CA3F /* Build configuration list for PBXProject "EatEat" */;
+			buildConfigurationList = 0B09E349242D06360027CA3F /* Build configuration list for PBXProject "ToSplit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,13 +281,13 @@
 				"pt-BR",
 			);
 			mainGroup = 0B09E345242D06360027CA3F;
-			productRefGroup = 0B09E34F242D06360027CA3F /* Products */;
+			productRefGroup = 0B09E345242D06360027CA3F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B09E34D242D06360027CA3F /* EatEat */,
-				0B09E363242D06390027CA3F /* EatEatTests */,
-				0B09E36E242D06390027CA3F /* EatEatUITests */,
+				0B09E34D242D06360027CA3F /* ToSplit */,
+				0B09E363242D06390027CA3F /* ToSplitTests */,
+				0B09E36E242D06390027CA3F /* ToSplitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -361,15 +326,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EatEat/Pods-EatEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ToSplit/Pods-ToSplit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EatEat/Pods-EatEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ToSplit/Pods-ToSplit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EatEat/Pods-EatEat-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToSplit/Pods-ToSplit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B96667A30972E1D56E3BBF52 /* [CP] Check Pods Manifest.lock */ = {
@@ -387,7 +352,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EatEat-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ToSplit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,10 +375,10 @@
 				0B09E397242EA1F10027CA3F /* UIResponderExt.swift in Sources */,
 				0B09E354242D06360027CA3F /* SceneDelegate.swift in Sources */,
 				CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */,
-				CD4942FC243A9A52008E3938 /* TextView.swift in Sources */,
+				CD993DBF2473993300B27A35 /* TextView.swift in Sources */,
 				0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */,
 				CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */,
-				CD4942FB243A9A52008E3938 /* TextInput.swift in Sources */,
+				CD993DBE2473993300B27A35 /* TextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +403,12 @@
 /* Begin PBXTargetDependency section */
 		0B09E366242D06390027CA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B09E34D242D06360027CA3F /* EatEat */;
+			target = 0B09E34D242D06360027CA3F /* ToSplit */;
 			targetProxy = 0B09E365242D06390027CA3F /* PBXContainerItemProxy */;
 		};
 		0B09E371242D06390027CA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B09E34D242D06360027CA3F /* EatEat */;
+			target = 0B09E34D242D06360027CA3F /* ToSplit */;
 			targetProxy = 0B09E370242D06390027CA3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -579,11 +544,10 @@
 		};
 		0B09E379242D06390027CA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C41252388251A800379CD1F /* Pods-EatEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = eateat/Info.plist;
+				INFOPLIST_FILE = ToSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,11 +561,10 @@
 		};
 		0B09E37A242D06390027CA3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FA679BA988E7C690FA6DDA3 /* Pods-EatEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = eateat/Info.plist;
+				INFOPLIST_FILE = ToSplit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +593,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatEat.app/EatEat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToSplit.app/ToSplit";
 			};
 			name = Debug;
 		};
@@ -651,7 +614,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatEat.app/EatEat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToSplit.app/ToSplit";
 			};
 			name = Release;
 		};
@@ -696,7 +659,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B09E349242D06360027CA3F /* Build configuration list for PBXProject "EatEat" */ = {
+		0B09E349242D06360027CA3F /* Build configuration list for PBXProject "ToSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E376242D06390027CA3F /* Debug */,
@@ -705,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEat" */ = {
+		0B09E378242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E379242D06390027CA3F /* Debug */,
@@ -714,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatTests" */ = {
+		0B09E37B242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E37C242D06390027CA3F /* Debug */,
@@ -723,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "EatEatUITests" */ = {
+		0B09E37E242D06390027CA3F /* Build configuration list for PBXNativeTarget "ToSplitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B09E37F242D06390027CA3F /* Debug */,
