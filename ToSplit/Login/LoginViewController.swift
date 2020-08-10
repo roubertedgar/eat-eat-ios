@@ -26,7 +26,10 @@ class LoginViewController: UIViewController {
     }
     
     @objc func doLogin(sender: UIButton) {
-        viewModel.doLogin(emailTextImput.text, passwordTextImput.text)
+        //viewModel.doLogin(emailTextImput.text, passwordTextImput.text)
+        let splitListViewController = SplitListViewController()
+        splitListViewController.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(splitListViewController, animated:true)
     }
     
     private func setupObservables() {

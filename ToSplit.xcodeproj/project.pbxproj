@@ -16,15 +16,23 @@
 		0B09E389242D15910027CA3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E388242D15910027CA3F /* LoginViewController.swift */; };
 		0B09E38B242D15AF0027CA3F /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B09E38A242D15AF0027CA3F /* LoginView.xib */; };
 		0B09E38E242D600C0027CA3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B09E390242D600C0027CA3F /* Localizable.strings */; };
-		0B09E395242EA1530027CA3F /* RestaurnatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E394242EA1530027CA3F /* RestaurnatListViewController.swift */; };
 		0B09E397242EA1F10027CA3F /* UIResponderExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E396242EA1F10027CA3F /* UIResponderExt.swift */; };
 		0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B09E399242ED55B0027CA3F /* LoginViewModel.swift */; };
+		6BA74425363463BFF3E9D24C /* Pods_ToSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D293739B0FCFB8D1FF55572 /* Pods_ToSplit.framework */; };
+		CD13B5AF24DE3ED600935C0D /* SplitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5AD24DE3ED600935C0D /* SplitListViewController.swift */; };
+		CD13B5B024DE3ED600935C0D /* SplitListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD13B5AE24DE3ED600935C0D /* SplitListView.xib */; };
+		CD13B5B724DE466500935C0D /* SplitTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5B524DE466500935C0D /* SplitTableCell.swift */; };
+		CD13B5B824DE466500935C0D /* SplitTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD13B5B624DE466500935C0D /* SplitTableCell.xib */; };
+		CD13B5BA24DE4B4B00935C0D /* SplitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5B924DE4B4B00935C0D /* SplitListViewModel.swift */; };
+		CD13B5BD24DFA12900935C0D /* LocationRemoteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5BC24DFA12900935C0D /* LocationRemoteEntity.swift */; };
+		CD13B5BF24DFA15F00935C0D /* LocationListRemoteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5BE24DFA15F00935C0D /* LocationListRemoteEntity.swift */; };
+		CD13B5C424DFA71100935C0D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B5C324DFA71100935C0D /* Location.swift */; };
 		CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4942FD243ABEB4008E3938 /* BaseButton.swift */; };
 		CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD80DB2E244FF901000DF2AD /* HttpManager.swift */; };
 		CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */; };
 		CD993DBE2473993300B27A35 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD993DBC2473993300B27A35 /* TextInput.swift */; };
 		CD993DBF2473993300B27A35 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD993DBD2473993300B27A35 /* TextView.swift */; };
-		CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFC730244EA05B0072424A /* LoginClient.swift */; };
+		CDCFC731244EA05B0072424A /* SplitHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFC730244EA05B0072424A /* SplitHttpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,15 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B09E34E242D06360027CA3F /* ToSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ToSplit.app; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplit.app"; sourceTree = "<absolute>"; };
 		0B09E351242D06360027CA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B09E353242D06360027CA3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B09E35A242D06390027CA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B09E35F242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E364242D06390027CA3F /* ToSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ToSplitTests.xctest; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplitTests.xctest"; sourceTree = "<absolute>"; };
 		0B09E368242D06390027CA3F /* eateatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatTests.swift; sourceTree = "<group>"; };
 		0B09E36A242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B09E36F242D06390027CA3F /* ToSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ToSplitUITests.xctest; path = "/Users/roubertedgar/Projects/personal/eat-eat-ios/build/Debug-iphoneos/ToSplitUITests.xctest"; sourceTree = "<absolute>"; };
 		0B09E373242D06390027CA3F /* eateatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eateatUITests.swift; sourceTree = "<group>"; };
 		0B09E375242D06390027CA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B09E381242D0A8C0027CA3F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -61,16 +66,29 @@
 		0B09E38A242D15AF0027CA3F /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		0B09E38F242D600C0027CA3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0B09E392242D619E0027CA3F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		0B09E394242EA1530027CA3F /* RestaurnatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurnatListViewController.swift; sourceTree = "<group>"; };
 		0B09E396242EA1F10027CA3F /* UIResponderExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponderExt.swift; sourceTree = "<group>"; };
 		0B09E399242ED55B0027CA3F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2D293739B0FCFB8D1FF55572 /* Pods_ToSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0112DBBD96D89155FDCA93 /* Pods-ToSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToSplit.debug.xcconfig"; path = "Target Support Files/Pods-ToSplit/Pods-ToSplit.debug.xcconfig"; sourceTree = "<group>"; };
+		CD13B5AD24DE3ED600935C0D /* SplitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitListViewController.swift; sourceTree = "<group>"; };
+		CD13B5AE24DE3ED600935C0D /* SplitListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplitListView.xib; sourceTree = "<group>"; };
+		CD13B5B524DE466500935C0D /* SplitTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTableCell.swift; sourceTree = "<group>"; };
+		CD13B5B624DE466500935C0D /* SplitTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplitTableCell.xib; sourceTree = "<group>"; };
+		CD13B5B924DE4B4B00935C0D /* SplitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitListViewModel.swift; sourceTree = "<group>"; };
+		CD13B5BC24DFA12900935C0D /* LocationRemoteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRemoteEntity.swift; sourceTree = "<group>"; };
+		CD13B5BE24DFA15F00935C0D /* LocationListRemoteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListRemoteEntity.swift; sourceTree = "<group>"; };
+		CD13B5C324DFA71100935C0D /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		CD4942FD243ABEB4008E3938 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		CD80DB2E244FF901000DF2AD /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 		CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		CD993DBC2473993300B27A35 /* TextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 		CD993DBD2473993300B27A35 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		CDCFC730244EA05B0072424A /* LoginClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClient.swift; sourceTree = "<group>"; };
+		CDCFC730244EA05B0072424A /* SplitHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitHttpClient.swift; sourceTree = "<group>"; };
+		CDD5963F24DDE0A500A9A8C3 /* ToSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD5964024DDE0A500A9A8C3 /* ToSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD5964124DDE0A500A9A8C3 /* ToSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDC247D2442D7F900238A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FDB42B71E929C0857BBD7C7D /* Pods-ToSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToSplit.release.xcconfig"; path = "Target Support Files/Pods-ToSplit/Pods-ToSplit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA74425363463BFF3E9D24C /* Pods_ToSplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +124,11 @@
 				0B09E350242D06360027CA3F /* ToSplit */,
 				0B09E367242D06390027CA3F /* ToSplitTests */,
 				0B09E372242D06390027CA3F /* ToSplitUITests */,
+				A765E645B3BFAE33A13B85F0 /* Pods */,
+				D9FB2F46D1D118640731E29F /* Frameworks */,
+				CDD5963F24DDE0A500A9A8C3 /* ToSplit.app */,
+				CDD5964024DDE0A500A9A8C3 /* ToSplitTests.xctest */,
+				CDD5964124DDE0A500A9A8C3 /* ToSplitUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +139,7 @@
 				0B09E353242D06360027CA3F /* SceneDelegate.swift */,
 				0B09E381242D0A8C0027CA3F /* SplashViewController.swift */,
 				0B09E385242D0D980027CA3F /* Login */,
-				0B09E393242E53AC0027CA3F /* Restaurant */,
+				0B09E393242E53AC0027CA3F /* Split */,
 				CD4942F8243A99C5008E3938 /* Components */,
 				CD80DB2D244FF8EB000DF2AD /* Core */,
 				0B09E398242EA4350027CA3F /* Extensions */,
@@ -151,17 +175,17 @@
 				0B09E38A242D15AF0027CA3F /* LoginView.xib */,
 				0B09E399242ED55B0027CA3F /* LoginViewModel.swift */,
 				CD942D3F2443DFED00F9C8D9 /* LoginInteractor.swift */,
-				CDCFC730244EA05B0072424A /* LoginClient.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		0B09E393242E53AC0027CA3F /* Restaurant */ = {
+		0B09E393242E53AC0027CA3F /* Split */ = {
 			isa = PBXGroup;
 			children = (
-				0B09E394242EA1530027CA3F /* RestaurnatListViewController.swift */,
+				CD13B5BB24DF9E0A00935C0D /* Data */,
+				CDD5964B24DE2F3900A9A8C3 /* List */,
 			);
-			path = Restaurant;
+			path = Split;
 			sourceTree = "<group>";
 		};
 		0B09E398242EA4350027CA3F /* Extensions */ = {
@@ -170,6 +194,42 @@
 				0B09E396242EA1F10027CA3F /* UIResponderExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A765E645B3BFAE33A13B85F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF0112DBBD96D89155FDCA93 /* Pods-ToSplit.debug.xcconfig */,
+				FDB42B71E929C0857BBD7C7D /* Pods-ToSplit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD13B5BB24DF9E0A00935C0D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B5C324DFA71100935C0D /* Location.swift */,
+				CD13B5C224DFA6E800935C0D /* UI */,
+				CD13B5C024DFA1E500935C0D /* Remote */,
+				CDCFC730244EA05B0072424A /* SplitHttpClient.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CD13B5C024DFA1E500935C0D /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B5BC24DFA12900935C0D /* LocationRemoteEntity.swift */,
+				CD13B5BE24DFA15F00935C0D /* LocationListRemoteEntity.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		CD13B5C224DFA6E800935C0D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		CD4942F8243A99C5008E3938 /* Components */ = {
@@ -188,6 +248,34 @@
 				CD80DB2E244FF901000DF2AD /* HttpManager.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		CDD5964B24DE2F3900A9A8C3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5964C24DE2F6A00A9A8C3 /* TableCell */,
+				CD13B5AD24DE3ED600935C0D /* SplitListViewController.swift */,
+				CD13B5AE24DE3ED600935C0D /* SplitListView.xib */,
+				CD13B5B924DE4B4B00935C0D /* SplitListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CDD5964C24DE2F6A00A9A8C3 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B5B524DE466500935C0D /* SplitTableCell.swift */,
+				CD13B5B624DE466500935C0D /* SplitTableCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		D9FB2F46D1D118640731E29F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D293739B0FCFB8D1FF55572 /* Pods_ToSplit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +297,7 @@
 			);
 			name = ToSplit;
 			productName = eateat;
-			productReference = 0B09E34E242D06360027CA3F /* ToSplit.app */;
+			productReference = CDD5963F24DDE0A500A9A8C3 /* ToSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0B09E363242D06390027CA3F /* ToSplitTests */ = {
@@ -227,7 +315,7 @@
 			);
 			name = ToSplitTests;
 			productName = eateatTests;
-			productReference = 0B09E364242D06390027CA3F /* ToSplitTests.xctest */;
+			productReference = CDD5964024DDE0A500A9A8C3 /* ToSplitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		0B09E36E242D06390027CA3F /* ToSplitUITests */ = {
@@ -245,7 +333,7 @@
 			);
 			name = ToSplitUITests;
 			productName = eateatUITests;
-			productReference = 0B09E36F242D06390027CA3F /* ToSplitUITests.xctest */;
+			productReference = CDD5964124DDE0A500A9A8C3 /* ToSplitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -297,6 +385,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD13B5B024DE3ED600935C0D /* SplitListView.xib in Resources */,
+				CD13B5B824DE466500935C0D /* SplitTableCell.xib in Resources */,
 				0B09E38B242D15AF0027CA3F /* LoginView.xib in Resources */,
 				0B09E38E242D600C0027CA3F /* Localizable.strings in Resources */,
 				0B09E35B242D06390027CA3F /* Assets.xcassets in Resources */,
@@ -366,19 +456,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDCFC731244EA05B0072424A /* LoginClient.swift in Sources */,
+				CD13B5BA24DE4B4B00935C0D /* SplitListViewModel.swift in Sources */,
+				CDCFC731244EA05B0072424A /* SplitHttpClient.swift in Sources */,
+				CD13B5AF24DE3ED600935C0D /* SplitListViewController.swift in Sources */,
 				0B09E389242D15910027CA3F /* LoginViewController.swift in Sources */,
 				CD942D402443DFED00F9C8D9 /* LoginInteractor.swift in Sources */,
-				0B09E395242EA1530027CA3F /* RestaurnatListViewController.swift in Sources */,
 				0B09E382242D0A8C0027CA3F /* SplashViewController.swift in Sources */,
 				0B09E352242D06360027CA3F /* AppDelegate.swift in Sources */,
+				CD13B5BD24DFA12900935C0D /* LocationRemoteEntity.swift in Sources */,
 				0B09E397242EA1F10027CA3F /* UIResponderExt.swift in Sources */,
 				0B09E354242D06360027CA3F /* SceneDelegate.swift in Sources */,
 				CD4942FE243ABEB4008E3938 /* BaseButton.swift in Sources */,
+				CD13B5B724DE466500935C0D /* SplitTableCell.swift in Sources */,
 				CD993DBF2473993300B27A35 /* TextView.swift in Sources */,
 				0B09E39A242ED55B0027CA3F /* LoginViewModel.swift in Sources */,
+				CD13B5C424DFA71100935C0D /* Location.swift in Sources */,
 				CD80DB2F244FF901000DF2AD /* HttpManager.swift in Sources */,
 				CD993DBE2473993300B27A35 /* TextInput.swift in Sources */,
+				CD13B5BF24DFA15F00935C0D /* LocationListRemoteEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +639,7 @@
 		};
 		0B09E379242D06390027CA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0112DBBD96D89155FDCA93 /* Pods-ToSplit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +657,7 @@
 		};
 		0B09E37A242D06390027CA3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB42B71E929C0857BBD7C7D /* Pods-ToSplit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
