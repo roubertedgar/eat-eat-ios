@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import eateat
+@testable import toSplit
 
 class eateatTests: XCTestCase {
 

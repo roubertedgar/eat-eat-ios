@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,7 +25,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDX-uo-VhV" customClass="TextView" customModule="ToSplit" customModuleProvider="target">
-                    <rect key="frame" x="20" y="74" width="374" height="41"/>
+                    <rect key="frame" x="20" y="74" width="374" height="37"/>
                     <accessibility key="accessibilityConfiguration" identifier="loginTitleText"/>
                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,7 +52,7 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="passwordTextImputHint"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBi-lY-liQ" customClass="BaseButton" customModule="ToSplit" customModuleProvider="target">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBi-lY-liQ" customClass="BaseButton" customModule="ToSplit" customModuleProvider="target">
                     <rect key="frame" x="40" y="772" width="334" height="30"/>
                     <state key="normal" title="Button"/>
                     <userDefinedRuntimeAttributes>
@@ -80,6 +81,7 @@
                     </userDefinedRuntimeAttributes>
                 </label>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="1oL-vN-3Y4" firstAttribute="trailing" secondItem="FhG-QU-xN0" secondAttribute="trailing" id="12y-P1-Ada"/>
@@ -103,7 +105,6 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fDX-uo-VhV" secondAttribute="trailing" constant="20" id="wBX-Ie-EAg"/>
                 <constraint firstItem="fDX-uo-VhV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="yGM-j7-oy6"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="-28" y="22"/>
         </view>
     </objects>
